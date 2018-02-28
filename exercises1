@@ -1,0 +1,22 @@
+1.
+
+declare
+  ΣF = m x a
+  m = 600
+  a = 2
+
+begin
+  
+
+2.
+
+if (Jika tahun habis di bagi 4 dan tidak habis di bagi 100) then
+output "tahun kabisat"
+else if (Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400)
+output "tahun kabisat"
+end if
+
+3.
+
+
+

@@ -1,0 +1,54 @@
+1. Newton Second Law
+
+   STORE "MASA BENDA" with 600
+   STORE "PERCEPATAN BENDA" with 2
+   STORE "JUMLAH ORANG" with 3
+   STORE "RESULTAN GAYA" with 0
+
+   WHILE "JUMLAH ORANG" < 3
+      ADD "JUMLAH ORANG" by 1
+      IF "JUMLAH ORANG" equals to 3
+      CALCULATE "MASA BENDA" times "PERCEPATAN BENDA"
+      SET "RESULTAN GAYA" value with calculation result
+      DISPLAY "RESULTAN GAYA"
+   END WHILE
+
+2. Tahun Kabisat
+
+   STORE "TAHUN" to any number
+
+   WHILE "TAHUN" > 1
+     DISPLAY "TAHUN"
+     CALCULATE "TAHUN" mod 4
+     CALCULATE "TAHUN" mod 100
+     CALCULATE "TAHUN" mod 400
+     STORE "REMAINDER" to the result of calculation
+     IF "TAHUN" equals to 0
+        DISPLAY "TAHUN KABISAT"
+     ELSE
+        DISPLAY "BUKAN TAHUN KABISAT"
+     END IF
+   END WHILE
+
+
+3. Laundry Day
+
+   STORE "PAKAIAN" with 20
+
+   WHILE "PAKAIAN" < 20
+     ADD (PAKAIAN + 1)
+     DISPLAY "MESIN NYALA"
+   END WHILE
+
+4. Periksa Kuku
+
+   SET "MURID" with 1
+
+   WHILE "MURID" <= 40
+    IF kuku siswa = "PANJANG" then
+       DISPLAY "MENGHUKUM"
+      ELSE
+       DISPLAY "MEMUJI"
+    END IF
+   END WHILE
+
